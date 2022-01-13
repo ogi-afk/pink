@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 147px;
+  &__list {
+    display: flex;
+    list-style-type: none;
+    gap: 11px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 400;
+  }
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.footer_card {
+}
+.social {
+  &__link {
+  }
+
+  &__linl {
+    &--twitter {
+    }
+
+    &--facebook {
+    }
+
+    &--youtube {
+    }
+  }
+}

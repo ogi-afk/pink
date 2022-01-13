@@ -1,0 +1,60 @@
+.download {
+  display: flex;
+  color: white;
+  background-color: black;
+  background-image: url("../images/back-desktop.png");
+
+  &__wrapper {
+    margin-left: 130px;
+    margin-right: -260px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    padding-left: 15px;
+    padding-top: 75px;
+    padding-bottom: 40px;
+  }
+
+  &__item {
+  }
+
+  &__link {
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  &__img {
+    margin-top: 81px;
+  }
+}
+
+.dowload {
+  &__title {
+    font-size: 50px;
+    line-height: 68px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__button {
+    font-size: 21px;
+    line-height: 18px;
+    font-weight: 700;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    border: 3px solid #ffffff;
+    border-radius: 29px;
+    padding: 15px 20px 15px 20px;
+  }
+}

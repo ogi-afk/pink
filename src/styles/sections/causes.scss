@@ -1,0 +1,48 @@
+.causes {
+  color: #000000;
+  background-image: url(../images/grey-background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  &__title {
+    font-size: 50px;
+    line-height: 68px;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 210px;
+    margin-right: 210px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0px;
+    padding: 8px;
+  }
+
+  &__item {
+    width: 300px;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+  }
+}
+.title-card {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000;
+  background-color: white;
+  background-image: url(../images/podlozka.png);
+
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}

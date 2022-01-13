@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/index.scss">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header container">
+    <img src="images/logotype-white-desktop.png" alt="Логотип сайта" width="147" height="40">
+    <nav class="navigation">
+      <button class="navigation__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="navigation__list">
+        <li class="navigation__link">
+          <p class="navigation__item"> Главная </p>
+        </li>
+        <li class="navigation__link"><a href="#" class="navigation__item">Фотографии</a></li>
+        <li class="navigation__link"><a href="#" class="navigation__item">Конкурс</a></li>
+        <li class="navigation__link"><a href="#" class="navigation__item">HTML Academy</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1 class="visually-hidden">Сайт приложения Pink</h1>
+    <section class="download container">
+      <div class="download__wrapper">
+        <h2 class="dowload__title">Взгляните
+          на жизнь
+          иначе!</h2>
+        <a href="#" class="dowload__button"> Скачать приложение</a>
+        <ul class="download__list">
+          <li class="download__item"><a href="#" class="download__link">
+              <img src="images/apple-logo.png" alt="" width="47" height="57">
+            </a></li>
+          <li class="download__item"><a href="#" class="download__link">
+              <img src="images/android-logo.png" alt="" width="43" height="47">
+            </a></li>
+          <li class="download__item"><a href="#" class="download__link">
+              <img src="images/microsoft-logo.png" alt="" width="44" height41>
+            </a></li>
+        </ul>
+        <p class="download__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </div>
+      <img class="download__img" src="images/phone.png" alt="" width="1050" height="645">
+    </section>
+    <section class="causes container">
+      <h2 class="causes__title">Устали от серости мегаполиса? <br>
+        Нам есть, что вам <br>
+        предложить!</h2>
+      <ul class="causes__list">
+        <li class="causes__item">
+          <img src="images/Group1-phone.png" alt="">
+          <h3 class="causes__title title-card">Поднимает
+            настроение</h3>
+          <p class="causes__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько
+            кликов!</p>
+        </li>
+        <li class="causes__item">
+          <img src="images/Group2-phone.png" alt="">
+          <h3 class="causes__title title-card">Меняет мир
+            вокруг</h3>
+          <p class="causes__text">Сделайте снимок и
+            украсьте его смайликом
+            или текстовой подписью, чтобы усилить эффект</p>
+        </li>
+        <li class="causes__item">
+          <img src="images/Group3-phone.png" alt="">
+          <h3 class="causes__title title-card">Заводит
+            новых друзей</h3>
+          <p class="causes__text"> Ставьте лайки, комментируйте, делитесь фотографиями с друзьями
+            и заводите новых</p>
+        </li>
+      </ul>
+    </section>
+    <section class="hours container">
+      <img src="images/24hours.png" width="298" height="345" alt="" class="hours__images">
+      <div>
+        <h2 class="hours__title">Эффект на 24 часа!</h2>
+        <p class="hours__text">Британские ученые провели исследования и доказали,
+          что положительный эффект от использования приложения длится целые сутки!</p>
+        <a href="#" class="hours__text"><span class="hourse_text text--red"> Узнать больше об
+            исследовании</span></a>
+      </div>
+    </section>
+    <section class="reviews container">
+      <div>
+        <h2 class="visually-hidden">Отзывы клиентов</h2>
+        <img src="images/quotes.png" alt="" class="reviews__img">
+        <p class="reviews__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на
+          привычные серые вещи! А еще я познакомился со своей будущей женой в
+          комментариях к выложенной фотографии!»</p>
+        <b class="reviews__name">Николай Петров</b>
+        <p class="reviews__text">25 лет, водитель трамвая</p>
+        <button class="reviews__prev" type="button">Предыдущий отзыв</button>
+        <button class="reviews__next" type="button">Следующий отзыв</button>
+      </div>
+      <p class="reviews__toggles slider__toggles">
+        <button class="slider__toggle slider__toggle--current" type="button">1</button>
+        <button class="slider__toggle" type="button">2</button>
+        <button class="slider__toggle" type="button">3</button>
+      </p>
+
+    </section>
+    <section class="price container">
+      <table>
+        <tr>
+          <td></td>
+          <td>
+            <p>База</p>
+            <p>1,99 USD</p>
+          </td>
+          <td>
+            <p>СТАНДАРТ</p>
+            <p>3,99 USD</p>
+          </td>
+          <td>
+            <p>АНЛИМ</p>
+            <p>9,99 USD</p>
+          </td>
+        </tr>
+        <tr>
+          <td>Розовый фильтр</td>
+          <td>
+            <img src="images/yes.png" alt="">
+          </td>
+          <td>
+            <img src="images/yes.png" alt="">
+          </td>
+          <td>
+            <img src="images/yes.png" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>Смайлики</td>
+          <td>
+            <img src="images/no.png" alt="">
+          </td>
+          <td>
+            <img src="images/yes.png" alt="">
+          </td>
+          <td>
+            <img src="images/yes.png" alt="">
+          </td>
+        </tr>
+        <tr>
+          <td>Комментарии</td>
+          <td>
+            <img src="images/no.png" alt="">
+          </td>
+          <td>
+            <img src="images/no.png" alt="">
+          </td>
+          <td>
+            <img src="images/yes.png" alt="">
+          </td>
+        </tr>
+      </table>
+    </section>
+    <section class="contact container">
+      <h2 class="contact__title">Остались вопросы? <br>
+        Свяжитесь с нами!</h2>
+      <ul class="contact__list">
+        <li class="contact__item">
+          <p class="contact__text">Звоните:</p>
+          <a href="tel:+78125556666" class="contact__link">
+            <span class="contacts__phone-mobile"></span>+7 (812) 555-66-66
+          </a>
+        </li>
+        <li class="contact__item">
+          <p class="contact__text">Приезжайте в гости:</p>
+          <a href="" class="contact__link">
+            <span class="contact__adres">ул. Большая
+              Конюшенная, 19/8</span>
+          </a>
+        </li>
+        <li class="contact__item">
+          <p class="contact__text">Пишите:</p>
+          <a href="" class="contact__link">
+            <span class="contact__email">mail@htmlacademy.ru</span>
+          </a>
+
+        </li>
+      </ul>
+      <img class="contacts__map" src="images/map.png" alt="" width="1200" height="502">
+    </section>
+  </main>
+  <footer class="footer container">
+    <img src="images/logotype-blue-desktop.png" alt="" width="147" height="40">
+    <ul class="footer__list">
+      <li class="footer_card">
+        <a href="#" class="social__link social__linl--twitter">
+          <img src="images/twit.png" alt="">
+        </a>
+      </li>
+      <li class="footer_card">
+        <a href="#" class="social__link social__linl--facebook">
+          <img src="images/face.png" alt="">
+        </a>
+      </li>
+      <li class="footer_card">
+        <a href="#" class="social__link social__linl--youtube">
+          <img src="images/youtobe.png" alt="">
+        </a>
+      </li>
+    </ul>
+    <div class="footer__wrapper">
+      <b class="footer__text">Разработано</b>
+      <img src="images/html-academy.svg" alt="">
+    </div>
+  </footer>
+</body>
+
+</html>

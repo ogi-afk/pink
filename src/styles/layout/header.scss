@@ -1,0 +1,31 @@
+.header {
+  background-color: rgba(0, 0, 0, 1);
+  height: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation {
+  &__toggle {
+  }
+
+  &__list {
+    display: flex;
+    gap: 79px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    font-size: 18px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-align: center;
+  }
+}

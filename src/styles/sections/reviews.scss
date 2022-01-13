@@ -1,0 +1,41 @@
+.reviews {
+  text-align: center;
+
+  &__img {
+    margin-top: 76px;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 256px;
+    margin-right: 256px;
+  }
+
+  &__name {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+  }
+
+  &__prev {
+  }
+
+  &__next {
+  }
+
+  &__toggles {
+  }
+}
+
+.slider {
+  &__toggles {
+  }
+
+  &__toggle {
+    &--current {
+    }
+  }
+}
